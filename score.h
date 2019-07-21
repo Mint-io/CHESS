@@ -15,7 +15,7 @@ public:
     // Member functions
     void updateWhiteScore(double score);
     void updateBlackScore(double score);
-    std::string printScore();
+    std::string printScore(); // Beautifully print the score
 };
 
 #endif
