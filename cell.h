@@ -27,4 +27,11 @@ public:
     void notifyDualDisplay(std::shared_ptr<GraphicalDisplay> gd, std::shared_ptr<TextDisplay> td);
 };
 
+bool operator==(Cell c1, Cell c2) {
+    return 
+    c1.getOccupy() == c2.getOccupy() &&
+    c1.getX() == c2.getX() &&
+    c1.getY() == c2.getY();
+}
+
 #endif
