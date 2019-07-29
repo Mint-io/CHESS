@@ -65,6 +65,9 @@ public:
 
     // see if cell blocks the way
     virtual bool blockCell(int r, int c) = 0;
+
+    // check if exist (x,y) in movelist can be attacked
+    virtual bool checkAttack(int x, int y);
 };
 
 
