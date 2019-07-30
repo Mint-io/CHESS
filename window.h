@@ -25,7 +25,7 @@ class Xwindow {
 	void drawBigString(int x, int y, std::string msg, int colour = Black);
 
 	// if you use this function, make sure font exists on the undergrad environment
-  void drawStringFont(int x, int y, std::string msg, std::string font, int colour = Black);
+    void drawStringFont(int x, int y, std::string msg, std::string font, int colour = Black);
 
 	// Draws a rectangle
 	void fillRectangle(int x, int y, int width, int height, int colour=Black);

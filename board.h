@@ -4,7 +4,7 @@
 #include <cstddef>
 #include <memory>
 #include <string>
-#include "cell.h"
+#include <vector>
 
 class TextDisplay;
 class GraphicalDisplay;
@@ -13,7 +13,7 @@ class Cell;
 class Board {
     std::shared_ptr<GraphicalDisplay> gd;
     std::shared_ptr<TextDisplay> td;
-    std::vector< std::vector<Cell> > chessBoard; // the chess playground
+    std::vector<std::vector<Cell>> chessBoard; // the chess playground
 
 public:
     // Accessors and Mutators of private fields

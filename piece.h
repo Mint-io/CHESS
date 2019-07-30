@@ -17,27 +17,34 @@ protected:
     int y; // y axis
     int y_prev; // y_prev axis
     std::shared_ptr<Board> gameboard;
-    std::vector<Cell *> movelist;
-    std::vector<Cell *> attacklist;
+    std::vector<Cell> movelist;
+    std::vector<Cell> attacklist;
     std::vector<Cell> historylist;
 public:
+    // constructor
     Piece(bool isAlive, int x, int y, std::shared_ptr<Board> gameboard, char chessType) :
         isAlive{isAlive}, x{x}, y{y}, gameboard{gameboard}, chessType{chessType} {
         x_prev = x;
         y_prev = y;
     }
-    char getType();
-    void setX(int x);
-    void setY(int y);
-    void setX_prev(int x);
-    void setY_prev(int y);
+
+    // getters
     int getX();
     int getY();
     int getX_prev();
     int getY_prev();
-    std::vector<Cell *> &getMoveList();
-    std::vector<Cell *> &getAttackList();
+    std::vector<Cell> &getMoveList();
+    std::vector<Cell> &getAttackList();
     bool alive();
+    char getType();
+    bool iswhite();
+
+    // setters
+    void setX(int x);
+    void setY(int y);
+    void setX_prev(int x);
+    void setY_prev(int y);
+    void reverse_alive();
 
     // execute a valid move to a cell that contained in movelist or attacklist
     virtual void moveto(int x, int y);
@@ -64,7 +71,7 @@ public:
     virtual bool validcastling(Cell);
 
     // see if cell blocks the way
-    virtual bool blockCell(int r, int c) = 0;
+    virtual bool blockCell(int r, int c);
 
     // check if exist (x,y) in movelist can be attacked
     virtual bool checkAttack(int x, int y);
