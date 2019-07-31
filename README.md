@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" width="420px" height="300px">
+  <img src="logo.png" width="420px" height="200px">
   <h1 align="center">
     Chess
   </h1>
