@@ -1,11 +1,35 @@
-# CHESS
-International chess designed by levels and by modes
+<div align="center">
+  <a href="">
+    <img src="logo.jpg"  width="80px" height="80px">
+  </a>
+  <h1 align="center">
+    Chess
+  </h1>
+  <h3 align="center">
+    International chess designed by levels and by modes
+  </h3>
+
+  <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
+    <img src="https://img.shields.io/github/release/getgridea/gridea.svg?style=flat-square" alt="">
+  </a>
+
+  <a href="https://github.com/Mint-io/CHESS/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/getgridea/gridea.svg?style=flat-square" alt="">
+  </a>
+  
+  <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/getgridea/gridea/total.svg?color=%2312b886&style=flat-square">
+  </a>
+
+</div>
+
+<div align="center">
+  <img src="board.png">
+
+</div>
 
 ### Introduction
-In this project, you and a partner will work together to produce a chess game.
-The rules of chess are readily available online, so we outline them only briefly here.
-Chess is played on an 8x8 checkerboard, arranged so that there is a white square at the bottom
-right. Players take turns making one move at a time. The player controlling the white pieces makes the first move.
+
 
 ### Six types of pieces
 - King (K) Moves one square in any direction.
@@ -33,3 +57,9 @@ Your system should accommodate both human and computer players. In particular, h
 - Level 3: prefers avoiding capture, capturing moves, and checks.
 - Levels 4+: something more sophisticated.
 For levels 4 and above, try to come up with more sophisticated strategies for your player to use. Attempt level 4 (or any higher levels) only when the rest of the project is done.
+
+### Contributions
+We welcome all contributions.You can submit any ideas as pull requests or as GitHub issues.
+
+### License
+[AGPL-3.0](https://github.com/Mint-io/CHESS/blob/master/LICENSE). Copyright (c) 2019 YIMING DAI
