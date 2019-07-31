@@ -24,11 +24,13 @@
 </div>
 
 <div align="center">
-  <img src="board.png" width="250px" height="250px">
+  <img src="board.png" width="400px" height="400px">
 
 </div>
 
 ### Introduction
+Chess is played on an 8x8 checkerboard, arranged so that there is a white square at the bottom
+right. Players take turns making one move at a time. The player controlling the white pieces makes the first move.
 
 
 ### Six types of pieces
