@@ -1,6 +1,6 @@
 <div align="center">
   <a href="">
-    <img src="logo.jpg" width="160px" height="160px">
+    <img src="logo.jpg" width="200px" height="200px">
   </a>
   <h1 align="center">
     Chess
