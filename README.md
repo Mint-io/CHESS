@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="">
-    <img src="logo.jpg"  width="80px" height="80px">
-  </a>
+  <img src="logo.png" width="420px" height="200px">
   <h1 align="center">
     Chess
   </h1>
@@ -10,25 +8,27 @@
   </h3>
 
   <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
-    <img src="https://img.shields.io/github/release/getgridea/gridea.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/github/release/Mint-io/CHESS.svg?style=flat-square" alt="">
   </a>
 
   <a href="https://github.com/Mint-io/CHESS/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/getgridea/gridea.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/github/license/Mint-io/CHESS.svg?style=flat-square" alt="">
   </a>
   
   <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
-    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/getgridea/gridea/total.svg?color=%2312b886&style=flat-square">
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/Mint-io/CHESS/total.svg?color=%2312b886&style=flat-square">
   </a>
 
 </div>
 
 <div align="center">
-  <img src="board.png">
+  <img src="board.png" width="400px" height="400px">
 
 </div>
 
 ### Introduction
+Chess is played on an 8x8 checkerboard, arranged so that there is a white square at the bottom
+right. Players take turns making one move at a time. The player controlling the white pieces makes the first move.
 
 
 ### Six types of pieces
