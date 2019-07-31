@@ -1,6 +1,6 @@
 <div align="center">
   <a href="">
-    <img src="logo.jpg"  width="80px" height="80px">
+    <img src="logo.jpg" width="160px" height="160px">
   </a>
   <h1 align="center">
     Chess
@@ -10,21 +10,21 @@
   </h3>
 
   <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
-    <img src="https://img.shields.io/github/release/getgridea/gridea.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/github/release/Mint-io/CHESS.svg?style=flat-square" alt="">
   </a>
 
   <a href="https://github.com/Mint-io/CHESS/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/getgridea/gridea.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/github/license/Mint-io/CHESS.svg?style=flat-square" alt="">
   </a>
   
   <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
-    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/getgridea/gridea/total.svg?color=%2312b886&style=flat-square">
+    <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/Mint-io/CHESS/total.svg?color=%2312b886&style=flat-square">
   </a>
 
 </div>
 
 <div align="center">
-  <img src="board.png">
+  <img src="board.png" width="250px" height="250px">
 
 </div>
 
