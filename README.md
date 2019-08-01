@@ -7,15 +7,15 @@
     International chess designed by levels and by modes
   </h3>
 
-  <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
+  <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0.1">
     <img src="https://img.shields.io/github/release/Mint-io/CHESS.svg?style=flat-square" alt="">
   </a>
 
-  <a href="https://github.com/Mint-io/CHESS/blob/master/LICENSE">
+  <a href="https://github.com/Mint-io/CHESS/blob/YIMING-DAI/LICENSE">
     <img src="https://img.shields.io/github/license/Mint-io/CHESS.svg?style=flat-square" alt="">
   </a>
   
-  <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0">
+  <a href="https://github.com/Mint-io/CHESS/releases/tag/v1.0.1">
     <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/Mint-io/CHESS/total.svg?color=%2312b886&style=flat-square">
   </a>
 
@@ -23,7 +23,6 @@
 
 <div align="center">
   <img src="board.png" width="400px" height="400px">
-
 </div>
 
 ### Introduction
